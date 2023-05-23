@@ -35,7 +35,7 @@ xgb.fit(X_train.to_numpy(),y_train.to_numpy())
 
 # web title
 st.set_page_config(
-    page_title="Ini Judul Halaman",
+    page_title="Alden",
 )
 
 # navigation/option
