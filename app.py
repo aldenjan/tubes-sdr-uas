@@ -49,7 +49,7 @@ with st.sidebar:
 )
 
 if selected == "Beranda":
-    st.write("# Ini Judul di Beranda")
+    st.write("# Admissions Decision")
    
 
     #image1 = Image.open('download.jpeg')
