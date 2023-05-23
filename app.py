@@ -23,7 +23,6 @@ def missing_data(df):
 missing_data(df)
 
 
-
 X= df.drop(["ChanceofAdmit", "Admit"],axis =1)
 y= df["Admit"]
 
@@ -70,14 +69,14 @@ if selected == "Prediksi":
     LOR = st.number_input("LOR")
     CGPA = st.number_input("CGPA")
     Research = st.number_input("Research")
-    ChanceofAdmit = st.number_input("Chance of Admit")
+   
    
     
     ok = st.button ("Prediksi")
 
     if ok:
       x_new = [[GREScore, TOEFLScore, UniversityRating, SOP, LOR, CGPA,
-       Research, ChanceofAdmit]]
+       Research]]
       result = xgb.predict(x_new)
       if result == 0:
         st.subheader("No")
