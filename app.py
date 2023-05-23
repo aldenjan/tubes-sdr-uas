@@ -31,7 +31,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.25, random_
 
 xgb = XGBClassifier()
 
-xgb.fit(X_train,y_train)
+xgb.fit(X_train.to_numpy(),y_train.to_numpy())
 
 # web title
 st.set_page_config(
