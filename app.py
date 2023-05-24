@@ -58,7 +58,7 @@ if selected == "Beranda":
 
 
 if selected == "Prediksi":
-    st.title("Ini Judul di Prediksi")
+    st.title("Admissions Decision penerimaan mahasiswa itera ")
     st.write("Tambahkan kalimat disini kalau diperlukan")
 
     
